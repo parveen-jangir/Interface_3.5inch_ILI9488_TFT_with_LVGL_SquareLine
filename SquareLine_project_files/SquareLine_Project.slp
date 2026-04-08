@@ -1,6 +1,6 @@
 {
-    "uiExportFolderPath": "D:\\work is life\\interlocking_door_with_timing\\ui",
-    "projectExportFolderPath": "D:\\work is life\\interlocking_door_with_timing\\interface_TFT",
+    "uiExportFolderPath": "D:\\work is life\\interlocking_door_with_timing\\Interface_3.5inch_ILI9488_TFT_with_LVGL_SquareLine\\UI_files",
+    "projectExportFolderPath": "D:\\work is life\\interlocking_door_with_timing\\Interface_3.5inch_ILI9488_TFT_with_LVGL_SquareLine\\SquareLine_project_files",
     "drive_stdio": "-",
     "drive_stdio_path": "",
     "drive_posix": "-",
