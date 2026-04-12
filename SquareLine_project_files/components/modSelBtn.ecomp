@@ -35,8 +35,8 @@
       "flags": 17,
       "strtype": "OBJECT/Position",
       "intarray": [
-        16,
-        67
+        326,
+        76
       ],
       "InheritedType": 7
     },
@@ -63,7 +63,6 @@
     },
     {
       "nid": 90,
-      "flags": 1048576,
       "strtype": "OBJECT/Flags",
       "InheritedType": 1
     },
@@ -82,7 +81,7 @@
     {
       "nid": 120,
       "strtype": "OBJECT/Checkable",
-      "strval": "False",
+      "strval": "True",
       "InheritedType": 2
     },
     {
@@ -219,6 +218,7 @@
     },
     {
       "nid": 320,
+      "flags": 1048576,
       "strtype": "OBJECT/States",
       "InheritedType": 1
     },
