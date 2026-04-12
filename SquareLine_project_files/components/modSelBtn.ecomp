@@ -35,8 +35,8 @@
       "flags": 17,
       "strtype": "OBJECT/Position",
       "intarray": [
-        326,
-        76
+        16,
+        67
       ],
       "InheritedType": 7
     },
@@ -294,11 +294,13 @@
               "nid": 10520,
               "flags": 4096,
               "strtype": "_style/Bg_Color",
+              "strval": "widgetColor",
+              "integer": 1000263,
               "intarray": [
+                69,
+                138,
                 255,
-                255,
-                255,
-                0
+                255
               ],
               "InheritedType": 7
             },
@@ -326,11 +328,13 @@
               "nid": 30520,
               "flags": 4096,
               "strtype": "_style/Bg_Color",
+              "strval": "widgetColor",
+              "integer": 1000263,
               "intarray": [
+                69,
+                138,
                 255,
-                255,
-                255,
-                0
+                255
               ],
               "InheritedType": 7
             },
