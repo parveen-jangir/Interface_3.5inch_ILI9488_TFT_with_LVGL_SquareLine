@@ -35,7 +35,7 @@
       "flags": 17,
       "strtype": "OBJECT/Position",
       "intarray": [
-        326,
+        12,
         76
       ],
       "InheritedType": 7
@@ -218,7 +218,6 @@
     },
     {
       "nid": 320,
-      "flags": 1048576,
       "strtype": "OBJECT/States",
       "InheritedType": 1
     },
@@ -291,7 +290,27 @@
               "InheritedType": 6
             },
             {
-              "nid": 10520,
+              "nid": 10910,
+              "flags": 4096,
+              "strtype": "_style/Shadow_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "InheritedType": 7
+            }
+          ],
+          "InheritedType": 1
+        },
+        {
+          "nid": 20000,
+          "strtype": "_style/StyleState",
+          "strval": "CHECKED",
+          "childs": [
+            {
+              "nid": 20520,
               "flags": 4096,
               "strtype": "_style/Bg_Color",
               "strval": "widgetColor",
@@ -305,16 +324,22 @@
               "InheritedType": 7
             },
             {
-              "nid": 10910,
+              "nid": 20710,
               "flags": 4096,
-              "strtype": "_style/Shadow_Color",
+              "strtype": "_style/Border_Color",
               "intarray": [
-                0,
-                0,
-                0,
-                0
+                255,
+                255,
+                255,
+                255
               ],
               "InheritedType": 7
+            },
+            {
+              "nid": 20720,
+              "strtype": "_style/Border width",
+              "integer": 5,
+              "InheritedType": 6
             }
           ],
           "InheritedType": 1

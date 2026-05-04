@@ -1,13 +1,13 @@
 {
-  "guid": "GUID58406060-177012S76265102",
+  "guid": "GUID61605737-597262S6565123",
   "children": [
     {
-      "guid": "GUID52700701-177014S6855102",
+      "guid": "GUID27805063-597260S6555123",
       "properties": [
         {
           "nid": 10,
           "strtype": "OBJECT/Name",
-          "strval": "Label5",
+          "strval": "Label6",
           "InheritedType": 10
         },
         {
@@ -294,7 +294,7 @@
         {
           "nid": 1030,
           "strtype": "LABEL/Text",
-          "strval": "Timer 1",
+          "strval": "Speed Door Timer",
           "InheritedType": 10
         },
         {
@@ -312,9 +312,21 @@
               "strval": "DEFAULT",
               "childs": [
                 {
+                  "nid": 10410,
+                  "flags": 4096,
+                  "strtype": "_style/Text_Color",
+                  "intarray": [
+                    255,
+                    255,
+                    255,
+                    255
+                  ],
+                  "InheritedType": 7
+                },
+                {
                   "nid": 10450,
                   "strtype": "_style/Text_Font",
-                  "strval": "montserrat_24",
+                  "strval": "montserrat_20",
                   "InheritedType": 3
                 }
               ],
@@ -330,12 +342,12 @@
       "saved_objtypeKey": "LABEL"
     },
     {
-      "guid": "GUID61409188-177018S312735102",
+      "guid": "GUID55703609-597261S6565123",
       "properties": [
         {
           "nid": 10,
           "strtype": "OBJECT/Name",
-          "strval": "Switch1",
+          "strval": "TextArea3",
           "InheritedType": 10
         },
         {
@@ -366,18 +378,18 @@
           "flags": 17,
           "strtype": "OBJECT/Position",
           "intarray": [
-            0,
+            10,
             0
           ],
           "InheritedType": 7
         },
         {
           "nid": 60,
-          "flags": 17,
+          "flags": 49,
           "strtype": "OBJECT/Size",
           "intarray": [
-            50,
-            25
+            150,
+            38
           ],
           "InheritedType": 7
         },
@@ -408,6 +420,12 @@
           "nid": 110,
           "strtype": "OBJECT/Clickable",
           "strval": "True",
+          "InheritedType": 2
+        },
+        {
+          "nid": 120,
+          "strtype": "OBJECT/Checkable",
+          "strval": "False",
           "InheritedType": 2
         },
         {
@@ -603,31 +621,80 @@
           "InheritedType": 2
         },
         {
+          "nid": 1010,
+          "strtype": "TEXTAREA/TextArea",
+          "InheritedType": 1
+        },
+        {
+          "nid": 1020,
+          "strtype": "TEXTAREA/Text",
+          "strval": "",
+          "InheritedType": 10
+        },
+        {
+          "nid": 1030,
+          "strtype": "TEXTAREA/Placeholder",
+          "strval": "Time in ms",
+          "InheritedType": 10
+        },
+        {
+          "nid": 1040,
+          "strtype": "TEXTAREA/One_line_mode",
+          "strval": "True",
+          "InheritedType": 2
+        },
+        {
+          "nid": 1050,
+          "strtype": "TEXTAREA/Password_mode",
+          "strval": "False",
+          "InheritedType": 2
+        },
+        {
+          "nid": 1060,
+          "strtype": "TEXTAREA/Accepted_characters",
+          "strval": "",
+          "InheritedType": 10
+        },
+        {
+          "nid": 1070,
+          "strtype": "TEXTAREA/Max_text_length",
+          "integer": 4,
+          "InheritedType": 6
+        },
+        {
           "part": "lv.PART.MAIN",
           "childs": [],
-          "nid": 1010,
-          "strtype": "SWITCH/Style_main",
-          "strval": "lv.PART.MAIN, Rectangle, Pad, Anim1, Transform",
+          "nid": 1080,
+          "strtype": "TEXTAREA/Style_main",
+          "strval": "lv.PART.MAIN, Text, Rectangle, Pad, Transform",
           "InheritedType": 11
         },
         {
-          "part": "lv.PART.INDICATOR",
+          "part": "lv.PART.SELECTED",
           "childs": [],
-          "nid": 1020,
-          "strtype": "SWITCH/Style_indicator",
-          "strval": "lv.PART.INDICATOR, Rectangle",
+          "nid": 1090,
+          "strtype": "TEXTAREA/Style_selected",
+          "strval": "lv.PART.SELECTED, Text, Rectangle",
           "InheritedType": 11
         },
         {
-          "part": "lv.PART.KNOB",
+          "part": "lv.PART.CURSOR",
           "childs": [],
-          "nid": 1030,
-          "strtype": "SWITCH/Style_knob",
-          "strval": "lv.PART.KNOB, Rectangle, Pad",
+          "nid": 1100,
+          "strtype": "TEXTAREA/Style_cursor",
+          "strval": "lv.PART.CURSOR, Text, Rectangle",
+          "InheritedType": 11
+        },
+        {
+          "part": "lv.PART_TEXTAREA.PLACEHOLDER",
+          "childs": [],
+          "nid": 1110,
+          "strtype": "TEXTAREA/Style_placeholder",
+          "strval": "lv.PART_TEXTAREA.PLACEHOLDER, Text",
           "InheritedType": 11
         }
       ],
-      "saved_objtypeKey": "SWITCH"
+      "saved_objtypeKey": "TEXTAREA"
     }
   ],
   "properties": [
@@ -666,7 +733,7 @@
       "strtype": "OBJECT/Position",
       "intarray": [
         0,
-        -72
+        -60
       ],
       "InheritedType": 7
     },
@@ -706,7 +773,7 @@
     {
       "nid": 110,
       "strtype": "OBJECT/Clickable",
-      "strval": "True",
+      "strval": "False",
       "InheritedType": 2
     },
     {
@@ -718,13 +785,13 @@
     {
       "nid": 130,
       "strtype": "OBJECT/Press_lock",
-      "strval": "True",
+      "strval": "False",
       "InheritedType": 2
     },
     {
       "nid": 140,
       "strtype": "OBJECT/Click_focusable",
-      "strval": "True",
+      "strval": "False",
       "InheritedType": 2
     },
     {
@@ -802,7 +869,7 @@
     {
       "nid": 260,
       "strtype": "OBJECT/Scroll_on_focus",
-      "strval": "True",
+      "strval": "False",
       "InheritedType": 2
     },
     {
@@ -909,12 +976,43 @@
     },
     {
       "part": "lv.PART.MAIN",
-      "childs": [],
+      "childs": [
+        {
+          "nid": 10000,
+          "strtype": "_style/StyleState",
+          "strval": "DEFAULT",
+          "childs": [
+            {
+              "nid": 10520,
+              "flags": 4096,
+              "strtype": "_style/Bg_Color",
+              "strval": "widgetColor",
+              "integer": 1000263,
+              "intarray": [
+                69,
+                138,
+                255,
+                255
+              ],
+              "InheritedType": 7
+            }
+          ],
+          "InheritedType": 1
+        }
+      ],
       "nid": 1010,
-      "strtype": "BUTTON/Style_main",
+      "strtype": "PANEL/Style_main",
       "strval": "lv.PART.MAIN, Rectangle, Pad, Text, Transform",
+      "InheritedType": 11
+    },
+    {
+      "part": "lv.PART.SCROLLBAR",
+      "childs": [],
+      "nid": 1020,
+      "strtype": "PANEL/Style_scrollbar",
+      "strval": "lv.PART.SCROLLBAR, Rectangle, Pad",
       "InheritedType": 11
     }
   ],
-  "saved_objtypeKey": "BUTTON"
+  "saved_objtypeKey": "PANEL"
 }
