@@ -1655,7 +1655,7 @@
                 "disabled": false,
                 "nid": 1000514,
                 "strtype": "_event/EventHandler",
-                "strval": "VALUE_CHANGED",
+                "strval": "CLICKED",
                 "childs": [
                   {
                     "nid": 1000515,
@@ -1709,6 +1709,50 @@
                         "strtype": "CALL FUNCTION/Dont_export_function",
                         "strval": "True",
                         "InheritedType": 2
+                      }
+                    ],
+                    "InheritedType": 10
+                  },
+                  {
+                    "nid": 1000848,
+                    "strtype": "_event/action",
+                    "strval": "MODIFY STATE",
+                    "childs": [
+                      {
+                        "nid": 1000849,
+                        "strtype": "MODIFY STATE/Name",
+                        "strval": "MODIFY STATE",
+                        "InheritedType": 10
+                      },
+                      {
+                        "nid": 1000850,
+                        "strtype": "MODIFY STATE/Call",
+                        "strval": "ModifyState( <{Object}>, lv.STATE.<{State}>, \"<{Action}>\")",
+                        "InheritedType": 10
+                      },
+                      {
+                        "nid": 1000851,
+                        "strtype": "MODIFY STATE/CallC",
+                        "strval": "_ui_state_modify( <{Object}>, LV_STATE_<{State}>, _UI_MODIFY_STATE_<{Action}>);",
+                        "InheritedType": 10
+                      },
+                      {
+                        "nid": 1000852,
+                        "strtype": "MODIFY STATE/Object",
+                        "strval": "GUID2169428-176929S8305102",
+                        "InheritedType": 9
+                      },
+                      {
+                        "nid": 1000853,
+                        "strtype": "MODIFY STATE/State",
+                        "strval": "CHECKED",
+                        "InheritedType": 3
+                      },
+                      {
+                        "nid": 1000854,
+                        "strtype": "MODIFY STATE/Action",
+                        "strval": "ADD",
+                        "InheritedType": 3
                       }
                     ],
                     "InheritedType": 10
@@ -2204,7 +2248,7 @@
                 "disabled": false,
                 "nid": 1000504,
                 "strtype": "_event/EventHandler",
-                "strval": "VALUE_CHANGED",
+                "strval": "CLICKED",
                 "childs": [
                   {
                     "nid": 1000505,
@@ -2258,6 +2302,50 @@
                         "strtype": "CALL FUNCTION/Dont_export_function",
                         "strval": "True",
                         "InheritedType": 2
+                      }
+                    ],
+                    "InheritedType": 10
+                  },
+                  {
+                    "nid": 1000841,
+                    "strtype": "_event/action",
+                    "strval": "MODIFY STATE",
+                    "childs": [
+                      {
+                        "nid": 1000842,
+                        "strtype": "MODIFY STATE/Name",
+                        "strval": "MODIFY STATE",
+                        "InheritedType": 10
+                      },
+                      {
+                        "nid": 1000843,
+                        "strtype": "MODIFY STATE/Call",
+                        "strval": "ModifyState( <{Object}>, lv.STATE.<{State}>, \"<{Action}>\")",
+                        "InheritedType": 10
+                      },
+                      {
+                        "nid": 1000844,
+                        "strtype": "MODIFY STATE/CallC",
+                        "strval": "_ui_state_modify( <{Object}>, LV_STATE_<{State}>, _UI_MODIFY_STATE_<{Action}>);",
+                        "InheritedType": 10
+                      },
+                      {
+                        "nid": 1000845,
+                        "strtype": "MODIFY STATE/Object",
+                        "strval": "GUID28650046-176932S25295102",
+                        "InheritedType": 9
+                      },
+                      {
+                        "nid": 1000846,
+                        "strtype": "MODIFY STATE/State",
+                        "strval": "CHECKED",
+                        "InheritedType": 3
+                      },
+                      {
+                        "nid": 1000847,
+                        "strtype": "MODIFY STATE/Action",
+                        "strval": "ADD",
+                        "InheritedType": 3
                       }
                     ],
                     "InheritedType": 10
@@ -2754,7 +2842,7 @@
                 "disabled": false,
                 "nid": 1000478,
                 "strtype": "_event/EventHandler",
-                "strval": "VALUE_CHANGED",
+                "strval": "CLICKED",
                 "childs": [
                   {
                     "nid": 1000479,
@@ -2808,6 +2896,50 @@
                         "strtype": "CALL FUNCTION/Dont_export_function",
                         "strval": "True",
                         "InheritedType": 2
+                      }
+                    ],
+                    "InheritedType": 10
+                  },
+                  {
+                    "nid": 1000834,
+                    "strtype": "_event/action",
+                    "strval": "MODIFY STATE",
+                    "childs": [
+                      {
+                        "nid": 1000835,
+                        "strtype": "MODIFY STATE/Name",
+                        "strval": "MODIFY STATE",
+                        "InheritedType": 10
+                      },
+                      {
+                        "nid": 1000836,
+                        "strtype": "MODIFY STATE/Call",
+                        "strval": "ModifyState( <{Object}>, lv.STATE.<{State}>, \"<{Action}>\")",
+                        "InheritedType": 10
+                      },
+                      {
+                        "nid": 1000837,
+                        "strtype": "MODIFY STATE/CallC",
+                        "strval": "_ui_state_modify( <{Object}>, LV_STATE_<{State}>, _UI_MODIFY_STATE_<{Action}>);",
+                        "InheritedType": 10
+                      },
+                      {
+                        "nid": 1000838,
+                        "strtype": "MODIFY STATE/Object",
+                        "strval": "GUID50911702-176935S34965102",
+                        "InheritedType": 9
+                      },
+                      {
+                        "nid": 1000839,
+                        "strtype": "MODIFY STATE/State",
+                        "strval": "CHECKED",
+                        "InheritedType": 3
+                      },
+                      {
+                        "nid": 1000840,
+                        "strtype": "MODIFY STATE/Action",
+                        "strval": "ADD",
+                        "InheritedType": 3
                       }
                     ],
                     "InheritedType": 10
@@ -9900,7 +10032,7 @@
                     "disabled": false,
                     "nid": 1000528,
                     "strtype": "_event/EventHandler",
-                    "strval": "FOCUSED",
+                    "strval": "CLICKED",
                     "childs": [
                       {
                         "nid": 1000529,
@@ -11865,7 +11997,7 @@
                     "disabled": false,
                     "nid": 1000587,
                     "strtype": "_event/EventHandler",
-                    "strval": "FOCUSED",
+                    "strval": "CLICKED",
                     "childs": [
                       {
                         "nid": 1000588,
@@ -13835,7 +13967,7 @@
                     "disabled": false,
                     "nid": 1000635,
                     "strtype": "_event/EventHandler",
-                    "strval": "FOCUSED",
+                    "strval": "CLICKED",
                     "childs": [
                       {
                         "nid": 1000636,
@@ -15827,6 +15959,12 @@
                 "InheritedType": 1
               },
               {
+                "nid": 100,
+                "strtype": "BUTTON/Hidden",
+                "strval": "False",
+                "InheritedType": 2
+              },
+              {
                 "nid": 225,
                 "flags": 1048576,
                 "strtype": "OBJECT/Scrolling",
@@ -16050,6 +16188,12 @@
                 "flags": 1048576,
                 "strtype": "OBJECT/Flags",
                 "InheritedType": 1
+              },
+              {
+                "nid": 100,
+                "strtype": "BUTTON/Hidden",
+                "strval": "False",
+                "InheritedType": 2
               },
               {
                 "nid": 225,
@@ -16280,6 +16424,12 @@
                     "InheritedType": 1
                   },
                   {
+                    "nid": 100,
+                    "strtype": "LABEL/Hidden",
+                    "strval": "False",
+                    "InheritedType": 2
+                  },
+                  {
                     "nid": 110,
                     "strtype": "OBJECT/Clickable",
                     "strval": "False",
@@ -16437,6 +16587,12 @@
                 "flags": 1048576,
                 "strtype": "OBJECT/Flags",
                 "InheritedType": 1
+              },
+              {
+                "nid": 100,
+                "strtype": "BUTTON/Hidden",
+                "strval": "False",
+                "InheritedType": 2
               },
               {
                 "nid": 225,
@@ -17747,9 +17903,8 @@
                   {
                     "disabled": false,
                     "nid": 1000683,
-                    "flags": 1048576,
                     "strtype": "_event/EventHandler",
-                    "strval": "FOCUSED",
+                    "strval": "CLICKED",
                     "childs": [
                       {
                         "nid": 1000684,
@@ -17901,6 +18056,7 @@
                   {
                     "disabled": false,
                     "nid": 1000707,
+                    "flags": 1048576,
                     "strtype": "_event/EventHandler",
                     "strval": "READY",
                     "childs": [
@@ -19715,9 +19871,8 @@
                   {
                     "disabled": false,
                     "nid": 1000731,
-                    "flags": 1048576,
                     "strtype": "_event/EventHandler",
-                    "strval": "FOCUSED",
+                    "strval": "CLICKED",
                     "childs": [
                       {
                         "nid": 1000732,
@@ -21681,9 +21836,8 @@
                   {
                     "disabled": false,
                     "nid": 1000779,
-                    "flags": 1048576,
                     "strtype": "_event/EventHandler",
-                    "strval": "FOCUSED",
+                    "strval": "CLICKED",
                     "childs": [
                       {
                         "nid": 1000780,
@@ -22708,6 +22862,12 @@
             "InheritedType": 1
           },
           {
+            "nid": 100,
+            "strtype": "SCREEN/Hidden",
+            "strval": "False",
+            "InheritedType": 2
+          },
+          {
             "nid": 225,
             "flags": 1048576,
             "strtype": "OBJECT/Scrolling",
@@ -22843,7 +23003,7 @@
     "custom_variable_prefix": "uic",
     "separate_screen_save": false,
     "hierarchy_state_save": false,
-    "backup_cnt": 67,
+    "backup_cnt": 73,
     "autosave_cnt": 0,
     "group_color_cnt": 0,
     "imagebytearrayprefix": "",
@@ -22854,7 +23014,7 @@
     "naming": "Name",
     "naming_force_lowercase": false,
     "naming_add_subcomponent": false,
-    "nidcnt": 1000834,
+    "nidcnt": 1000875,
     "BitDepth": 16,
     "Name": "SquareLine_Project"
   }
