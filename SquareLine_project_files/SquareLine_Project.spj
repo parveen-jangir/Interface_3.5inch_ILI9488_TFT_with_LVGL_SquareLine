@@ -9628,8 +9628,9 @@
                   },
                   {
                     "compnid": 1070,
+                    "flags": 65536,
                     "strtype": "TEXTAREA/Max_text_length",
-                    "integer": 4,
+                    "integer": 5,
                     "InheritedType": 6
                   },
                   {
@@ -11593,8 +11594,9 @@
                   },
                   {
                     "compnid": 1070,
+                    "flags": 65536,
                     "strtype": "TEXTAREA/Max_text_length",
-                    "integer": 4,
+                    "integer": 5,
                     "InheritedType": 6
                   },
                   {
@@ -13563,8 +13565,9 @@
                   },
                   {
                     "compnid": 1070,
+                    "flags": 65536,
                     "strtype": "TEXTAREA/Max_text_length",
-                    "integer": 4,
+                    "integer": 5,
                     "InheritedType": 6
                   },
                   {
@@ -17500,8 +17503,9 @@
                   },
                   {
                     "compnid": 1070,
+                    "flags": 65536,
                     "strtype": "TEXTAREA/Max_text_length",
-                    "integer": 4,
+                    "integer": 6,
                     "InheritedType": 6
                   },
                   {
@@ -17903,6 +17907,7 @@
                   {
                     "disabled": false,
                     "nid": 1000683,
+                    "flags": 1048576,
                     "strtype": "_event/EventHandler",
                     "strval": "CLICKED",
                     "childs": [
@@ -17950,7 +17955,7 @@
                           {
                             "nid": 1000691,
                             "strtype": "BASIC_PROPERTY/Target",
-                            "strval": "GUID20602522-597280S7385124",
+                            "strval": "GUID89529823-597335S4325124",
                             "InheritedType": 9
                           },
                           {
@@ -18056,7 +18061,6 @@
                   {
                     "disabled": false,
                     "nid": 1000707,
-                    "flags": 1048576,
                     "strtype": "_event/EventHandler",
                     "strval": "READY",
                     "childs": [
@@ -21433,8 +21437,9 @@
                   },
                   {
                     "compnid": 1070,
+                    "flags": 65536,
                     "strtype": "TEXTAREA/Max_text_length",
-                    "integer": 4,
+                    "integer": 5,
                     "InheritedType": 6
                   },
                   {
@@ -23003,7 +23008,7 @@
     "custom_variable_prefix": "uic",
     "separate_screen_save": false,
     "hierarchy_state_save": false,
-    "backup_cnt": 73,
+    "backup_cnt": 75,
     "autosave_cnt": 0,
     "group_color_cnt": 0,
     "imagebytearrayprefix": "",
